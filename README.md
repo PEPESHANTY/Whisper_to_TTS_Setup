@@ -35,8 +35,8 @@ ssh -i <path-to-ssh-key> -L 9000:127.0.0.1:9000 <user-name>@<ip>
 
 Example for reference:
 ```bash
-ssh -i C:\Users\shant\.ssh\my-tpu-key -L 5000:127.0.0.1:5000 shantanu_tpu@35.186.40.29
-ssh -i C:\Users\shant\.ssh\my-tpu-key -L 9000:127.0.0.1:9000 shantanu_tpu@35.186.40.29
+ssh -i C:\Users\<private-key path> -L 5000:127.0.0.1:5000 <user-id>@<ip-address>
+ssh -i C:\Users\<private-key path> -L 9000:127.0.0.1:9000 shantanu_tpu@35.186.40.29
 ```
 
 Keep both terminals running while you use the app.
