@@ -78,6 +78,8 @@ Navigate to the complete code folder:
 cd COMPLETE_MODEL
 streamlit run app.py
 ```
+![Recording Screenshot](images/recording.png)
+
 
 ---
 
@@ -87,7 +89,7 @@ streamlit run app.py
 2. Speak for up to **10 seconds** (default duration).
 3. Wait for transcription to appear on screen.
 4. The AI will process your query and speak back using **Piper TTS**.
-
+![Recording Screenshot](images/answer1.png)
 ✅ You’ll see messages like:
 - *Recording... Speak now!*
 - *Thinking...*
@@ -95,7 +97,7 @@ streamlit run app.py
 - *Audio generated successfully ✅*
 
 Then you can **play the audio** directly in the UI.
-
+![Recording Screenshot](images/answer2.png)
 ---
 
 ## 🧠 Notes
@@ -104,24 +106,3 @@ Then you can **play the audio** directly in the UI.
 - The current model used is `gpt-4o-mini` (via OpenAI API).
 
 ---
-
-## 🖼️ Adding Screenshots (for GitHub)
-
-To add screenshots in your README:
-
-1. Create a folder named `images/` in your repo.
-2. Copy your PNG screenshots inside it.
-3. In your README, use this Markdown syntax:
-
-```markdown
-![Recording Screenshot](images/recording.png)
-![Answer Screenshot](images/answer.png)
-```
-
-You can also resize or align images using HTML if needed:
-
-```html
-<p align="center">
-  <img src="images/recording.png" width="600"/>
-</p>
-```
