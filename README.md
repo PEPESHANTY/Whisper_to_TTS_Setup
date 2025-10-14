@@ -78,6 +78,7 @@ Navigate to the complete code folder:
 cd COMPLETE_MODEL
 streamlit run app.py
 ```
+---
 ![Recording Screenshot](images/recording.png)
 
 
@@ -89,7 +90,9 @@ streamlit run app.py
 2. Speak for up to **10 seconds** (default duration).
 3. Wait for transcription to appear on screen.
 4. The AI will process your query and speak back using **Piper TTS**.
+---
 ![Recording Screenshot](images/answer1.png)
+---
 ✅ You’ll see messages like:
 - *Recording... Speak now!*
 - *Thinking...*
@@ -97,6 +100,7 @@ streamlit run app.py
 - *Audio generated successfully ✅*
 
 Then you can **play the audio** directly in the UI.
+---
 ![Recording Screenshot](images/answer2.png)
 ---
 
