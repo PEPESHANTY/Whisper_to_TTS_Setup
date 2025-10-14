@@ -56,9 +56,11 @@ PIPER_TTS_API=http://127.0.0.1:5000/tts
 
 ---
 
-## 🧩 Step 3. Install Dependencies
+## 🧩 Step 3. Install Dependencies on venv
 
 ```bash
+python -m venv whisper_tts_env
+whisper_tts_env\Scripts\activate
 pip install -r requirements.txt
 ```
 
