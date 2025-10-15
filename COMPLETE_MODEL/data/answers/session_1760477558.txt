@@ -1,0 +1,1 @@
+[en] Hi Stavros! To upload a file on GitHub, just go to your repository, click on 'Add file', then select 'Upload files' and drag your files in.
